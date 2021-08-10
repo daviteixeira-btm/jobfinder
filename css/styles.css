@@ -75,7 +75,8 @@ nav:after {
 /* Banner */
 
 #main-banner {
-    background: url('/img/banner6.jpg') no-repeat;
+    background-image: url('../img/banner6.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 55%;
     position: relative;
