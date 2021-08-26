@@ -208,7 +208,7 @@ nav:after {
 .locality {
     color: #6d6d6d;
     display: inline-block;
-    width: 25%;
+    width: 26%;
     position: absolute;
     height: 100%;
     line-height: 80px;
@@ -620,6 +620,7 @@ footer .wrapper:after {
     }
 
     #search-form {
+        padding: 6em;
         padding-top: 25em;
         padding-bottom: 5em;
     }
@@ -645,5 +646,49 @@ footer .wrapper:after {
         max-width: 960px;
         padding-left: 2em;
         padding-right: 2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .company-box {
+        width: 46%;
+        padding-left: 1em;
+    }
+
+    .company-box .company-info h3 {
+        font-size: 1em;
+    }
+
+    .company-box .company-info p, .locality i, .locality p, .job-type span {
+        font-size: .8em;
+    }
+
+    .job-type {
+        right: 1em;
+    }
+
+    #sendjobs-inner h2, #sendjobs-inner p {
+        text-shadow: .5px .5px #000;
+    }
+
+    .status-box {
+        width: 49.4%;
+        border: none;
+    }
+
+    .status-box:nth-child(1), .status-box:nth-child(3) {
+        border-right: 1px solid #ddd;
+    }
+
+    .testmony-box {
+        width: 49.4%;
+    }
+
+    .article-box{
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin-bottom: 3em;
     }
 }
