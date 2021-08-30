@@ -119,7 +119,7 @@ nav:after {
     margin: 0 10px;
 }
 
-#search-form input[type=submit] {
+#search-form input[type=submit], #sendjobs input[type=submit] {
     background-color: #3381f3;
     text-transform: uppercase;
     color: #fff;
@@ -127,7 +127,7 @@ nav:after {
     transition: .5s;
 }
 
-#search-form input[type=submit]:hover {
+#search-form input[type=submit]:hover, #sendjobs input[type=submit]:hover {
     background-color: #2b79eb;
 }
 
@@ -662,6 +662,69 @@ footer .wrapper:after {
     color: #666;
     font-weight: bold;
     margin-left: .5em;
+}
+
+/* Send Jobs Page */
+
+#sendjobs #sendjobs-container {
+    margin-top: 100px;
+    background: none;
+    padding: 5em 0;
+}
+
+#sendjobs h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.input-box {
+    margin-bottom: 2em;
+    width: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sendjobs label {
+    text-transform: uppercase;
+    color: #666;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
+}
+
+#sendjobs input, #sendjobs textarea, #sendjobs select {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+#sendjobs input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#sendjobs textarea, #sendjobs select {
+    border: 1px solid #ccc;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#sendjobs input[type=submit]{
+    width: 200px;
+    float: right;
+}
+
+.input-box:after{
+    clear: both;
+    content: "";
+    display: block;
 }
 
 /* Responsive */
